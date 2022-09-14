@@ -16,5 +16,11 @@ if pin==password:
         op = int(input('Enter your choice:'))
         if op==1:
             print('Your balance is',balance)
+        elif op==2:
+            withdraw = int(input("Enter withdraw amount:"))
+            balance-=withdraw
+            print(withdraw," is debited from your account")
+            print("Now your balance is:",balance)
         else:
             print("Wrong choice")
+        
