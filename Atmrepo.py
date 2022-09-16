@@ -1,4 +1,4 @@
- time
+import time
 print('Insert your card!')
 time.sleep(3)
 password=1234
@@ -8,7 +8,6 @@ print(balance)
 if pin==password:
     while True:
         print('''
-        
         1 == check balance
         2 == withdraw balance
         3 == deposite balance
@@ -22,15 +21,6 @@ if pin==password:
             balance-=withdraw
             print(withdraw," is debited from your account")
             print("Now your balance is:",balance)
-        elif op==3:
-            d_amount=int(input('Enter amount for deposit:'))
-            balance+=d_amount
-            print(d_amount,"Rs. is credited in your account:")
-            print(f"your updated balance is {balance}")
-        elif  op==5:
-            break   
         else:
             print("Wrong choice")
-else:
-    print('you have enter wrong passsword')            
-          
+        
