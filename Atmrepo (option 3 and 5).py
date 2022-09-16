@@ -1,4 +1,4 @@
- time
+import time
 print('Insert your card!')
 time.sleep(3)
 password=1234
