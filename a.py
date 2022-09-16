@@ -1,4 +1,4 @@
- time
+import time
 print('Insert your card!')
 time.sleep(3)
 password=1234
@@ -33,4 +33,3 @@ if pin==password:
             print("Wrong choice")
 else:
     print('you have enter wrong passsword')            
-          
