@@ -21,6 +21,8 @@ if pin==password:
             balance-=withdraw
             print(withdraw," is debited from your account")
             print("Now your balance is:",balance)
+        elif op == 3:
+            print("OP3 ")
         else:
             print("Wrong choice")
         
