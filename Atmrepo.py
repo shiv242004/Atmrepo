@@ -23,6 +23,8 @@ if pin==password:
             print("Now your balance is:",balance)
         elif op == 3:
             print("OP3 ")
+        elif op == 4:
+            print("Option4 ")
         else:
             print("Wrong choice")
         
